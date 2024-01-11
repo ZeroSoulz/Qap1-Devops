@@ -1,10 +1,12 @@
 package com.keyin;
+
 import java.util.HashMap;
 import java.util.Map;
+
 public class SuggestionDatabaseTest {
     private Map<String, Integer> wordMap;
 
-    public Map<String, Integer> getWordMap(){
+    public Map<String, Integer> getWordMap() {
         if (wordMap == null) {
             wordMap = new HashMap<String, Integer>();
         }
